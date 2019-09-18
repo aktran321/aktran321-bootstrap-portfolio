@@ -21,6 +21,7 @@ img{
 }
 
 @media screen and(max-width:640px){
+    
     #look {
         width:100%;
     }
@@ -33,6 +34,9 @@ img{
     img{
         float: center;
    
+    }
+    nav{
+        position:static;
     }
 
 }
