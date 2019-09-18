@@ -1,0 +1,38 @@
+a.navbar-brand {
+    font-size:32px;
+}
+img{
+    float:left;
+}
+@media screen and (max-width: 768px) {
+    #look {
+        width:100%;
+    }
+    #p1{
+        width:100%;
+    }
+    #p2{
+        width:100%;
+    }
+    img{
+        float:center;
+    }
+
+}
+
+@media screen and(max-width:640px){
+    #look {
+        width:100%;
+    }
+    #p1{
+        width:100%;
+    }
+    #p2{
+        width:100%;
+    }
+    img{
+        float: center;
+   
+    }
+
+}
