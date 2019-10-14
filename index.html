@@ -2,100 +2,163 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Andy Tran - About</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!--Animate.Css-->
+    <head>
+            <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+          </head>
+  </head>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css"> 
-   <!--<link rel ="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">   -->
+<body data-spy="scroll" data-target="#navbarResponsive">
+    <!--Start Home Section-->
+    <div id="home">
+        <!--Navigation-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 
-    <title>Bootstrap 4 Starter Template</title>
- 
-  <body class="bg-danger">
-    
+            <a class="navbar-brand" href="#">Andy Tran</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" 
+            data-taget="#navbarResponsive"><span class="navbar-toggler-icon"></span>
+            </button>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    </head>
-        <!-- First Row-->
-<nav class = "navbar navbar-default">
-    <div class="container">
-        <div class = "navbar-header">
-            <button type ="button" class = "collapse" data-target="#bs-example-navbar-collapse-1"
-            aria-expanded="false">
-        <span class= "sr-only">Toggle Navigation</span>
-    <span class = "icon-bar"></span>
-    <span class = "icon-bar"></span>
-    <span class = "icon-bar"></span>
-</button>
-    <a class = "navbar-brand" href="index.html">Andy Tran</a>
-        </div>
-        <div class = "collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class = "nav navbar-nav navbar-right">
-                <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-        <!--About Me Row-->
-        <div class="container">
-            <div class="row ">
-                <div class="col-lg-9 col-md-9 col-sm-9 bg-info">
-                    <div class="page-header">
-                            <h1>About Me</h1>
-                    </div>
-                    <div class="row" id="look">
-                        <div class="col-lg-3 col-md-3 col-sm-3">
-                            <img src="https://imgur.com/vPxp6F2.jpg" height= 150px width=150px class="thumbnail"
-                            alt="Picture of Me">
-                        </div>
-                        <div class="col-lg-9 col-md-9 col-sm-9">
-                            <div class="caption">
-                                        <p id="p1">What is Lorem Ipsum?
-                                                Lorem Ipsum is simply dummy text 
-                                                of the printing and typesetting industry. 
-                                                Lorem Ipsum has been the industry's standard 
-                                                dummy text ever since the 1500s, when an 
-                                                unknown printer took a galley of type and 
-                                                scrambled it to make a type specimen book. 
-                                                It has survived not only five centuries, but 
-                                                also the leap into electronic typesetting, 
-                                                remaining essentially unchanged. It was 
-                                                popularised in the 1960s with the release of 
-                                                Letraset sheets containing Lorem Ipsum passages, and more 
-                                                recently with desktop publishing software like Aldus 
-                                                PageMaker including versions of Lorem Ipsum.
-                                        </p>
-                                                <p id="p2">
-                                                Why do we use it?
-                                                It is a long established fact that a reader will be 
-                                                distracted by the readable content of a page when 
-                                                looking at its layout. The point of using Lorem Ipsum is 
-                                                that it has a more-or-less normal distribution of 
-                                                letters, as opposed to using 'Content here, content here', 
-                                                making it look like readable English. Many desktop 
-                                                publishing packages and web page editors now use Lorem 
-                                                Ipsum as their default model text, and a search for 
-                                                'lorem ipsum' will uncover many web sites still in their 
-                                                infancy. Various versions have evolved over the years, 
-                                                sometimes by accident, sometimes on purpose (injected 
-                                                humour and the like).
-                                                
-                                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class = "col-sm-4">
-                
-                </div>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--End of Navigation-->
+
+        <!--Landing Page-->
+        <div class="landing">
+            <div class="home-wrap">
+                <div class="home-inner">
+                    <img width="100%" src="images/tree-stars.jpeg">
                 </div>
             </div>
+        </div>
 
-    </body>
+        <div class="caption text-center">
+            <h1 class="animated fadeIn">Welcome</h1>
+            <h3 class="animated fadeIn">This is my webpage</h3>
+            <a class="btn btn-outline-light btn-lg" href="#about">Get Started</a>
+        </div>
+        <!--End Landing Page-->
+    </div>
+    <!--End of Home Section with the Div Above-->
+
+    <!-- Start About Section-->
+    <div id="about" class="offset">
+        <div class="col-12 narrow text-center">
+            <h1>About Me</h1>
+            <p>I graduated with a Bachelors in Mechanical Engineering from the University of Maryland, College Park. 
+                Ultimately, I decided to leave that field and pursue web devlopment. I found that I had a strong eager to learn
+                coding and I continually enjoy the day-to-day problems I am faced with. 
+            </p>
+            <p>Currently, I am enrolled in a web development bootcamp and expect to graduate in December of 2019. Below you can see some of the
+                interesting projects I have completed throughout my web development career.
+            </p>
+        </div>
+    </div>
+    
+    <div id="portfolio" class="offset"> <!--Start Portfolio Section-->
+         <div class="jumbotron"> <!--Start of the Jumbotron-->
+            <div class="narrow">
+                <div class="col-12">
+                    <h3 class="heading">Portfolio</h3>
+                    <div class="heading-underline"></div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <div class="feature">
+                            <i class="fas fa-play-circle fa-4x" 
+                            data-fa-transform="shrink-3 up-4.5"></i>
+                            <h3>info</h3>
+                            <p>here</p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature">
+                        <i class="fas fa-sliders-h fa-4x" data-fa-transform="shrink-4.5 up-4.5"></i>
+                        <h3>Content Slider</h3>
+                        <p>Some Random Text</p>
+                      </div>
+                     </div>
+                    <div class="col-md-4">
+                        <div class="feature">
+                        <i class="fab fa-wapforms fa-4x" data-transform="shrink-4 up-5"></i>
+                        <h3>Contact Form</h3>
+                        <p>Bootstrap HTML form will send directly to your email.</p>
+                         </div>
+                    </div>
+                </div> <!--End of the row-->
+            </div> <!--End Narrow-->
+         </div> <!--End of jumbotron-->
+
+    </div><!--End of Portfolio-->
+
+    <!--Start Contact Section-->
+    <div id="contact" class="offset">
+        <div class="fixed-background">
+            <div class="row dark">
+                <div class="col-12">
+                        <h3 class="contact text-center">Contact</h3>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <form class="ml-5">
+                            <div class="form-row">
+                                <div class="col">
+                                        <label for="first-name" >First Name</label>
+                                        <input id="first-name" class="form-inline" type="text">
+                                </div>
+                                <div class="col">
+                                        <label for="last-name" >Last Name</label>
+                                        <input id="last-name" class="form-inline" type="text">
+                                </div>
+                            </div>
+                            <label for="email" >Email</label>
+                            <input id="email" class="form-control" type="email">
+                            <label for="subject">Message</label>
+                            <textarea id="subject" name="subject" style="height:200px" class ="form-control"></textarea>
+                            <input type="submit" class="btn btn-info btn-md mt-3" value="Submit">
+                        </form>
+                    </div>
+                </div>
+               
+          
+                <div class="heading-underline">
+
+                </div>
+            </div><!--End Row Dark-->
+            <div class="fixed-wrap">
+                <div class="fixed">
+
+                </div>
+            </div>
+        </div><!--End of the fixed background section-->
+    </div>
+
+  <!--Script Link Files-->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+</body>
 </html>
