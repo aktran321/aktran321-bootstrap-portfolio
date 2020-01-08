@@ -84,3 +84,7 @@ p {
     -ms-transform: rotate(270deg);
     transform: rotate(270deg);
 }
+a .link {
+    color: lightblue;
+    text-decoration: underline;
+}
